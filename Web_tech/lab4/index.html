@@ -6,10 +6,12 @@
     <title>Ботанічний сад</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="./img/logo.png">
 </head>
 <body>
 
     <header class="header text-center">
+        <img src="./img/logo.png" alt="Логотип Ботанічного саду" class="logo">
         <h1>Ласкаво просимо до Ботанічного саду</h1>
     </header>
 
@@ -39,7 +41,91 @@
             </div>
         </div>
     </div>
-
+    <div class="container table-section">
+        <h2 class="text-center">Розклад заходів</h2>
+        <table class="table table-hover table-striped table-bordered table-responsive-x1 mt-4">
+            <thead class="thead-dark">
+                <tr>
+                    <th>Дата</th>
+                    <th>Захід</th>
+                    <th>Тип заходу</th>
+                    <th>Місце</th>
+                    <th>Час</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>10 жовтня 2024</td>
+                    <td>Лекція про рідкісні рослини</td>
+                    <td>Лекція</td>
+                    <td>Конференц-зал</td>
+                    <td>14:00</td>
+                </tr>
+                <tr class="table-warning">
+                    <td>15 жовтня 2024</td>
+                    <td>Майстер-клас з садівництва</td>
+                    <td>Майстер-клас</td>
+                    <td>Головний сад</td>
+                    <td>10:00</td>
+                </tr>
+                <tr>
+                    <td>20 жовтня 2024</td>
+                    <td>Виставка квітів</td>
+                    <td>Виставка</td>
+                    <td>Виставковий зал</td>
+                    <td>12:00</td>
+                </tr>
+                <tr>
+                    <td class="table-light">10 жовтня 2025</td>
+                    <td>Майстер-клас із поливання квітів</td>
+                    <td>Майстер-клас</td>
+                    <td>Головний сад</td>
+                    <td>16:20</td>
+                </tr>
+                <tr class="table-dark">
+                    <td>20 листопада 2024</td>
+                    <td>Виставка квітів</td>
+                    <td>Виставка</td>
+                    <td>Виставковий зал</td>
+                    <td>15:00</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="container testimonials">
+        <h2 class="text-center">Відгуки наших гостей</h2>
+        <div class="row justify-content-center">
+            <div class="col-md-4 mb-4 d-flex">
+                <div class="testimonial-item card p-3 w-100 text-center">
+                    <img src="./img/celebrities/billy.jpg" alt="Клієнт 1" class="img-fluid rounded-circle mb-3">
+                    <h5>Billy</h5>
+                    <p>Чудове місце для сімейного відпочинку! Вражений різноманіттям рослин і приємною атмосферою.</p>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4 d-flex">
+                <div class="testimonial-item card p-3 w-100 text-center">
+                    <img src="./img/celebrities/diddy.jpg" alt="Клієнт 2" class="img-fluid rounded-circle mb-3">
+                    <h5>Diddy</h5>
+                    <p>Мені дуже сподобалися виставки і майстер-класи! Дізналася багато нового про рослини.</p>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4 d-flex">
+                <div class="testimonial-item card p-3 w-100 text-center">
+                    <img src="./img/./celebrities/max.jpg" alt="Клієнт 3" class="img-fluid rounded-circle mb-3">
+                    <h5>Max</h5>
+                    <p>Цей сад — справжня перлина нашого міста. Планую повернутися знову!</p>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4 d-flex">
+                <div class="testimonial-item card p-3 w-100 text-center">
+                    <img src="./img/celebrities/tyler.jpg" alt="Клієнт 4" class="img-fluid rounded-circle mb-3">
+                    <h5>Tyler</h5>
+                    <p>Прекрасне місце для релаксації! Відчувається турбота про кожен куточок саду.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
     <footer class="footer text-center">
         <p>© 2024 Ботанічний сад. Усі права захищені.</p>
     </footer>

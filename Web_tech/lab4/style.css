@@ -8,6 +8,7 @@ body {
     background-size: cover;
     height: 60vh;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     color: white;
@@ -19,7 +20,11 @@ body {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 }
 
-
+.logo {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px; /* Відступ між логотипом і текстом */
+}
 
 .features {
     margin: 50px auto;
@@ -48,3 +53,30 @@ body {
     border-radius: 10px;
 }
 
+.testimonials {
+    margin: 50px auto; /* Центрування секції */
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    max-width: 1200px; /* Обмеження максимальної ширини */
+    width: 100%; /* Забезпечення, що секція буде адаптуватися до екрану */
+}
+
+
+.testimonial-item {
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    transition: transform 0.2s;
+}
+
+.testimonial-item:hover {
+    transform: scale(1.05);
+}
+
+.testimonial-item img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+}
